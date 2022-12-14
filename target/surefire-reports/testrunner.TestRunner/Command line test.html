@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 14 23:41:56 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>265 seconds (265737 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The logged in user lands on the homepage,experiences the checkout flow and places an order", "Placing Order"</td>
+<td></td>
+<td>61</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user fills the required fields with valid data and complete registration successfully", "Registration"</td>
+<td></td>
+<td>6</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The logged in user could filter products results by tags", "TagsSelection"</td>
+<td></td>
+<td>11</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The logged in user lands on the homepage,chooses and adds random products to their CompareList", "AddingProductsToCompareList"</td>
+<td></td>
+<td>41</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user enters their valid email to reset their password", "PasswordReset"</td>
+<td></td>
+<td>5</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The logged in user could filter products results by color", "ColorFiltering"</td>
+<td></td>
+<td>8</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The logged in user lands on the homepage and changes the currency from USD to EURO", "CurrencyChange"</td>
+<td></td>
+<td>6</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The logged in user lands on the homepage,chooses and adds random products to their WishList", "AddingProductsToWishlist"</td>
+<td></td>
+<td>50</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The logged in user lands on the homepage and searches for a product using the search bar", "Search"</td>
+<td></td>
+<td>5</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The logged in user lands on the homepage,chooses and adds random products to their cart", "AddingProductsToCart"</td>
+<td></td>
+<td>51</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user enters their email and password to log in successfully to the website", "Login"</td>
+<td></td>
+<td>5</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The logged in user lands on the homepage and browses different categories", "CategoryBrowsing"</td>
+<td></td>
+<td>10</td>
+<td>testrunner.TestRunner@7193666c</td></tr>
+</table><p>
+</body>
+</html>
