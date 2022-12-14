@@ -21,3 +21,7 @@ T
 $src/test/java/utility/Constants.java,b\9\b9c9948e674595f6d2fa85918fd4e4719013b0a8
 Q
 !src/test/java/pages/Register.java,b\6\b6fc20583ada2744acb62284784009e9dbd2f07b
+c
+3src/test/java/stepdefinitions/PlacingOrderStep.java,3\9\39be76644fecc9a3a3c67a9a8009074238149c31
+N
+src/test/java/pages/Order.java,e\c\ec930af7cbe90d0a2443be498916b6ced6ac6270
