@@ -2,7 +2,6 @@ package stepdefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import pages.Home;
@@ -13,8 +12,7 @@ import java.time.Duration;
 import static stepdefinitions.Hooks.driver;
 import static utility.Constants.SUCCESS_URL;
 
-public class PlacingOrderStep
-{
+public class PlacingOrderStep {
     Home home = new Home();
     Order order = new Order();
 
@@ -63,8 +61,8 @@ public class PlacingOrderStep
 
     @Then("The user will be redirected to the Thank you page")
     public void theUserWillBeRedirectedToTheThankYouPage() throws InterruptedException {
-       Thread.sleep(4000);
-        Assert.assertEquals(driver.getCurrentUrl(),SUCCESS_URL);
+        Thread.sleep(4000);
+        Assert.assertEquals(driver.getCurrentUrl(), SUCCESS_URL);
     }
 
     @And("The user will have their order placed")

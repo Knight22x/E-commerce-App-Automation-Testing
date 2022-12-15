@@ -14,7 +14,6 @@ public class AddingProductsToCartStep {
     Home cart = new Home();
 
 
-
     @And("adsd")
     public void asda() {
 
@@ -31,12 +30,9 @@ public class AddingProductsToCartStep {
 
     @Then("The shopping cart of that user will have all the added products")
     public void theShoppingCartOfThatUserWillHaveAllTheAddedProducts() {
-        if ( ProductListing.successfulCartAdditions == cart.cartCount()-ProductListing.currentCartCount )
-        {
+        if (ProductListing.successfulCartAdditions == cart.cartCount() - ProductListing.currentCartCount) {
             Assert.assertTrue(true);
-        }
-        else
-        {
+        } else {
             Assert.fail();
         }
     }
