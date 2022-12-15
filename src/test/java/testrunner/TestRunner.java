@@ -8,7 +8,6 @@ import static utility.Constants.ROOT;
 @CucumberOptions(features = {ROOT},
         glue = {"stepdefinitions"})
 
-
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 }
