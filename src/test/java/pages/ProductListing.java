@@ -12,10 +12,10 @@ import static stepdefinitions.Hooks.driver;
 
 public class ProductListing {
 
-    Actions actions = new Actions(driver);
-    static Home home = new Home ();
     static public int successfulCartAdditions = 0;
+    static Home home = new Home();
     static public int currentCartCount = home.cartCount();
+    Actions actions = new Actions(driver);
 
     public List<WebElement> color() {
         return driver.findElements(By.xpath("//li[@class='item color-item']"));
@@ -51,7 +51,9 @@ public class ProductListing {
         return By.className("add-to-wishlist-button");
     }
 
-    public By addToCompareListButton() {return By.className("add-to-compare-list-button");}
+    public By addToCompareListButton() {
+        return By.className("add-to-compare-list-button");
+    }
 
 
     public void viewRandomCategoryAndSubcategory() throws InterruptedException {
@@ -81,11 +83,11 @@ public class ProductListing {
         Thread.sleep(2000);
         driver.findElement(addToCartButton()).click();
         Thread.sleep(2000);
-            if (home.successAlert() != null) {
-                successfulCartAdditions++;
-                System.out.println(successfulCartAdditions);
-            }
-            viewRandomCategoryAndSubcategory();
+        if (home.successAlert() != null) {
+            successfulCartAdditions++;
+            System.out.println(successfulCartAdditions);
+        }
+        viewRandomCategoryAndSubcategory();
 
     }
 
