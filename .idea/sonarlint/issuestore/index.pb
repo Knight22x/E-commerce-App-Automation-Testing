@@ -15,8 +15,6 @@ e
 5src/test/java/stepdefinitions/ColorFilteringStep.java,8\b\8baab60dd4b6710f11ecd4652678425da749467b
 M
 src/test/java/pages/Home.java,0\e\0e82ebfb6976c2cce3b2baf623e5d32f4ddd7632
-W
-'src/test/java/pages/Authentication.java,3\5\35056b03ab249cd16fe452b92f42fe7d37b7f4f0
 T
 $src/test/java/utility/Constants.java,b\9\b9c9948e674595f6d2fa85918fd4e4719013b0a8
 Q
