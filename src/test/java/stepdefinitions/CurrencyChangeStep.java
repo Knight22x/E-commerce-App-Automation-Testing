@@ -16,7 +16,7 @@ public class CurrencyChangeStep {
 
     Authentication auth = new Authentication();
     Home home = new Home();
-   // WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));  //Explicit waiting
+    // WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));  //Explicit waiting
 
     @Given("The user logs in to the website")
     public void theUserLogsInToTheWebsite() {

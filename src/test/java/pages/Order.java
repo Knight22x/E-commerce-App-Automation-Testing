@@ -2,11 +2,9 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.security.PublicKey;
 import java.time.Duration;
 
 import static stepdefinitions.Hooks.driver;
@@ -14,77 +12,64 @@ import static stepdefinitions.Hooks.driver;
 public class Order {
 
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));  //Explicit waiting
-    public By termsOfServiceCheckbox ()
-    {
+
+    public By termsOfServiceCheckbox() {
         return By.id("termsofservice");
     }
 
 
-    public By checkoutButton()
-    {
-        return By.id ("checkout");
+    public By checkoutButton() {
+        return By.id("checkout");
     }
 
-    public WebElement countryDropDownMenu()
-    {
+    public WebElement countryDropDownMenu() {
         return driver.findElement(By.id("BillingNewAddress_CountryId"));
     }
 
-    public By cityField ()
-    {
+    public By cityField() {
         return By.id("BillingNewAddress_City");
     }
 
-    public By addressField()
-    {
+    public By addressField() {
         return By.id("BillingNewAddress_Address1");
     }
 
-    public By zipcodeField()
-    {
+    public By zipcodeField() {
         return By.id("BillingNewAddress_ZipPostalCode");
     }
 
-    public By phoneNumberField()
-    {
+    public By phoneNumberField() {
         return By.id("BillingNewAddress_PhoneNumber");
     }
 
-    public By submitAddressButton()
-    {
+    public By submitAddressButton() {
         return By.className("new-address-next-step-button");
     }
 
-    public By submitShippingMethodButton()
-    {
+    public By submitShippingMethodButton() {
         return By.className("shipping-method-next-step-button");
     }
 
-    public By shippingMethodsItems()
-    {
+    public By shippingMethodsItems() {
         //return By.className("shipping-method-next-step-button");
         return null;
     }
 
 
-    public By paymentMethodsItems()
-    {
+    public By paymentMethodsItems() {
         //return By.className("shipping-method-next-step-button");
         return null;
     }
 
-    public By submitPaymentMethodButton()
-    {
+    public By submitPaymentMethodButton() {
         return By.className("payment-method-next-step-button");
     }
 
-    public By paymentInfoButton()
-    {
+    public By paymentInfoButton() {
         return By.className("payment-info-next-step-button");
     }
 
-    public By confirmOrderButton()
-    {
+    public By confirmOrderButton() {
         return By.className("confirm-order-next-step-button");
     }
 

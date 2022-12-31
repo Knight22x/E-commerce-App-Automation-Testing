@@ -1,0 +1,70 @@
+{
+  "uuid": "f5413f2f-47a1-472f-a448-a4661adbc8b1",
+  "historyId": "37b0c71827b291ab8e8f97b6e07a4c37",
+  "fullName": "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "labels": [
+    {
+      "name": "package",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testClass",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testMethod",
+      "value": "runScenario"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5BKD9P7"
+    },
+    {
+      "name": "thread",
+      "value": "11192@DESKTOP-5BKD9P7.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Runs Cucumber Scenarios",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg1",
+      "value": "\"CurrencyChange\""
+    },
+    {
+      "name": "arg0",
+      "value": "\"The logged in user lands on the homepage and changes the currency from USD to EURO\""
+    }
+  ],
+  "start": 1672469948724,
+  "stop": 1672469954737
+}

@@ -1,3 +1,4 @@
+@smoke
 Feature: AddingProductsToWishlist
 
   #SC10- Logged user could add different products to Wishlist

@@ -1,0 +1,70 @@
+{
+  "uuid": "3a574c27-9dc8-4392-a69a-d51f37d1c4c3",
+  "historyId": "a71f3f42cd723995b41915e03588ae26",
+  "fullName": "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "labels": [
+    {
+      "name": "package",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testClass",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testMethod",
+      "value": "runScenario"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5BKD9P7"
+    },
+    {
+      "name": "thread",
+      "value": "11192@DESKTOP-5BKD9P7.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Runs Cucumber Scenarios",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg1",
+      "value": "\"PasswordReset\""
+    },
+    {
+      "name": "arg0",
+      "value": "\"The user enters their valid email to reset their password\""
+    }
+  ],
+  "start": 1672469959975,
+  "stop": 1672469964066
+}

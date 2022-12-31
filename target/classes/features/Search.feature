@@ -1,3 +1,4 @@
+@smoke
 Feature: Search
 
   #SC5- Logged User could search for any product

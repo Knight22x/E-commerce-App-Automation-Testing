@@ -1,3 +1,4 @@
+@smoke
 Feature: Placing Order
 
   #SC12- Create successful Order

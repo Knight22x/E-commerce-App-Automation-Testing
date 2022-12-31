@@ -7,7 +7,7 @@ import pages.ProductListing;
 public class AddingProductsToCompareListStep {
 
     ProductListing product = new ProductListing();
-    int numberOfProductsToBeAdded = 2 ;
+    int numberOfProductsToBeAdded = 2;
 
     @And("The user selects and adds random products to the CompareList")
     public void theUserSelectsAndAddsRandomProductsToTheCompareList() throws InterruptedException {
