@@ -1,0 +1,70 @@
+{
+  "uuid": "3073106a-a5dd-4a29-bcea-68848a10b32e",
+  "historyId": "5b38b1d5bbac7ee56120babe6c921047",
+  "fullName": "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "labels": [
+    {
+      "name": "package",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testClass",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testMethod",
+      "value": "runScenario"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "E-commerce App Automation Testing"
+    },
+    {
+      "name": "subSuite",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5BKD9P7"
+    },
+    {
+      "name": "thread",
+      "value": "16292@DESKTOP-5BKD9P7.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Runs Cucumber Scenarios",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg1",
+      "value": "\"Registration\""
+    },
+    {
+      "name": "arg0",
+      "value": "\"The user fills the required fields with valid data and complete registration successfully\""
+    }
+  ],
+  "start": 1672469473423,
+  "stop": 1672469481122
+}

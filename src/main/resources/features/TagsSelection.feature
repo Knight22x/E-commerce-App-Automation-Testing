@@ -1,3 +1,4 @@
+@smoke
 Feature: TagsSelection
 
   #SC8- Logged user could select different tags

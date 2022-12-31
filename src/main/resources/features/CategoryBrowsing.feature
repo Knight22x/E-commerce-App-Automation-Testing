@@ -1,3 +1,4 @@
+@smoke
 Feature: CategoryBrowsing
 
   #SC6- Logged user could select different Categories

@@ -1,3 +1,4 @@
+@smoke
 Feature: AddingProductsToCart
 
   #SC9- Logged user could add different products to Shopping cart

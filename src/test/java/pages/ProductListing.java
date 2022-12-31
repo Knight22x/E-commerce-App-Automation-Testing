@@ -85,7 +85,6 @@ public class ProductListing {
         Thread.sleep(2000);
         if (home.successAlert() != null) {
             successfulCartAdditions++;
-            System.out.println(successfulCartAdditions);
         }
         viewRandomCategoryAndSubcategory();
 

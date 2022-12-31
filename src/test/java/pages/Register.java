@@ -15,7 +15,6 @@ public class Register {
     public Register() {
         email = new StringBuilder(randomTextGeneration() + "@gmail.com");
         password = randomTextGeneration();
-        System.out.println("asdasfgfsagassg");
     }
 
     public By registerRedirectionLink() {

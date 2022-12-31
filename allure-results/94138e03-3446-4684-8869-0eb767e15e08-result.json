@@ -1,0 +1,70 @@
+{
+  "uuid": "94138e03-3446-4684-8869-0eb767e15e08",
+  "historyId": "9c86ff0185c48ca95a7dadafc31d47b9",
+  "fullName": "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "labels": [
+    {
+      "name": "package",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testClass",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testMethod",
+      "value": "runScenario"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5BKD9P7"
+    },
+    {
+      "name": "thread",
+      "value": "11192@DESKTOP-5BKD9P7.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Runs Cucumber Scenarios",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg1",
+      "value": "\"ColorFiltering\""
+    },
+    {
+      "name": "arg0",
+      "value": "\"The logged in user could filter products results by color\""
+    }
+  ],
+  "start": 1672469940181,
+  "stop": 1672469948720
+}

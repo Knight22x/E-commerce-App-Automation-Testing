@@ -1,3 +1,4 @@
+@smoke
 Feature: AddingProductsToCompareList
 
   #SC11- Logged user could add different products to compare list

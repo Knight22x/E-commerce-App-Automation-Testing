@@ -32,7 +32,6 @@ public class SearchStep {
 
     @Then("Search results related to the keyword will be displayed")
     public void searchResultsRelatedToTheKeywordWillBeDisplayed() throws InterruptedException {
-        System.out.println("HELLO" + product.products().size());
         Assert.assertTrue(product.products().size() > 0);
 
     }

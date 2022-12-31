@@ -1,0 +1,70 @@
+{
+  "uuid": "676b4ea5-56d7-4a84-8334-291dfb9389b0",
+  "historyId": "f95312484bc1ded8ea40a554cbf6f4d9",
+  "fullName": "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "labels": [
+    {
+      "name": "package",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testClass",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "testMethod",
+      "value": "runScenario"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Surefire suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surefire test"
+    },
+    {
+      "name": "subSuite",
+      "value": "testrunner.TestRunner"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5BKD9P7"
+    },
+    {
+      "name": "thread",
+      "value": "11192@DESKTOP-5BKD9P7.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Runs Cucumber Scenarios",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg1",
+      "value": "\"AddingProductsToCart\""
+    },
+    {
+      "name": "arg0",
+      "value": "\"The logged in user lands on the homepage,chooses and adds random products to their cart\""
+    }
+  ],
+  "start": 1672469791344,
+  "stop": 1672469842595
+}

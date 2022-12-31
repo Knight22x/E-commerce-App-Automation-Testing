@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-testrunner_TestRunner" class="navigator-link">
-              <span class="suite-name border-passed">testrunner.TestRunner</span>
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-testrunner_TestRunner" class="navigator-link ">
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
                     <span>[unset file name]</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-testrunner_TestRunner" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-testrunner_TestRunner" class="navigator-link ">
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
                     <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-testrunner_TestRunner" class="navigator-link ">
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-testrunner_TestRunner" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-testrunner_TestRunner" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-testrunner_TestRunner" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,76 +92,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods,   12 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their cart&quot;, &quot;AddingPr...)">runScenario("The logged in user lands on the homepage,chooses and adds random products to their cart", "AddingPr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-testrunner_TestRunner" class="hide-methods passed suite-testrunner_TestRunner"> (hide)</a> <!-- hide-methods passed suite-testrunner_TestRunner -->
-                      <a href="#" panel-name="suite-testrunner_TestRunner" class="show-methods passed suite-testrunner_TestRunner"> (show)</a> <!-- show-methods passed suite-testrunner_TestRunner -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
-                    <div class="method-list-content passed suite-testrunner_TestRunner">
+                    <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage,experiences the checkout flow and places an order&quot;, &quot;Placi...)">runScenario("The logged in user lands on the homepage,experiences the checkout flow and places an order", "Placi...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage and browses different categories&quot;, &quot;CategoryBrowsing&quot;)">runScenario("The logged in user lands on the homepage and browses different categories", "CategoryBrowsing")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user fills the required fields with valid data and complete registration successfully&quot;, &quot;Regist...)">runScenario("The user fills the required fields with valid data and complete registration successfully", "Regist...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their CompareList&quot;, &quot;A...)">runScenario("The logged in user lands on the homepage,chooses and adds random products to their CompareList", "A...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user could filter products results by tags&quot;, &quot;TagsSelection&quot;)">runScenario("The logged in user could filter products results by tags", "TagsSelection")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage,experiences the checkout flow and places an order&quot;, &quot;Placi...)">runScenario("The logged in user lands on the homepage,experiences the checkout flow and places an order", "Placi...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their CompareList&quot;, &quot;A...)">runScenario("The logged in user lands on the homepage,chooses and adds random products to their CompareList", "A...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user fills the required fields with valid data and complete registration successfully&quot;, &quot;Regist...)">runScenario("The user fills the required fields with valid data and complete registration successfully", "Regist...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user enters their valid email to reset their password&quot;, &quot;PasswordReset&quot;)">runScenario("The user enters their valid email to reset their password", "PasswordReset")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user could filter products results by tags&quot;, &quot;TagsSelection&quot;)">runScenario("The logged in user could filter products results by tags", "TagsSelection")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user could filter products results by color&quot;, &quot;ColorFiltering&quot;)">runScenario("The logged in user could filter products results by color", "ColorFiltering")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their WishList&quot;, &quot;Addi...)">runScenario("The logged in user lands on the homepage,chooses and adds random products to their WishList", "Addi...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage and changes the currency from USD to EURO&quot;, &quot;CurrencyChang...)">runScenario("The logged in user lands on the homepage and changes the currency from USD to EURO", "CurrencyChang...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage and searches for a product using the search bar&quot;, &quot;Search&quot;)">runScenario("The logged in user lands on the homepage and searches for a product using the search bar", "Search")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their WishList&quot;, &quot;Addi...)">runScenario("The logged in user lands on the homepage,chooses and adds random products to their WishList", "Addi...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage and searches for a product using the search bar&quot;, &quot;Search&quot;)">runScenario("The logged in user lands on the homepage and searches for a product using the search bar", "Search")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their cart&quot;, &quot;AddingPr...)">runScenario("The logged in user lands on the homepage,chooses and adds random products to their cart", "AddingPr...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The user enters their email and password to log in successfully to the website&quot;, &quot;Login&quot;)">runScenario("The user enters their email and password to log in successfully to the website", "Login")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-testrunner_TestRunner" title="testrunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The logged in user lands on the homepage and browses different categories&quot;, &quot;CategoryBrowsing&quot;)">runScenario("The logged in user lands on the homepage and browses different categories", "CategoryBrowsing")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-testrunner_TestRunner -->
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -172,13 +161,76 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-testrunner_TestRunner" class="panel testrunner_TestRunner">
-          <div class="suite-testrunner_TestRunner-class-passed">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testrunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their cart&quot;, &quot;AddingPr...)">
+                  </a> <!-- runScenario("The logged in user lands on the homepage,chooses and adds random products to their cart", "AddingPr...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The logged in user lands on the homepage,chooses and adds random products to their cart","AddingProductsToCart")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.add\-to\-cart\-button&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2aef655193e9f267e28929c42a864292, findElement {using=class name, value=add-to-cart-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Knight\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61149/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2aef655193e9f267e28929c42a864292
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at pages.ProductListing.addDifferentProductToTheCart(ProductListing.java:84)
+	at stepdefinitions.AddingProductsToCartStep.theUserSelectsAndAddsRandomProductsToTheCart(AddingProductsToCartStep.java:19)
+	at ✽.The user selects and adds random products to the cart(file:///F:/Studying/Front%20End%20testing%20Nanodegree%20Udacity/Project%202/E-commerce%20App%20Automation%20Testing/src/main/resources/features/AddingProductsToCart.feature:8)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">testrunner.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The logged in user lands on the homepage and browses different categories&quot;, &quot;CategoryBrowsing&quot;)">
+                  </a> <!-- runScenario("The logged in user lands on the homepage and browses different categories", "CategoryBrowsing") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The logged in user lands on the homepage and browses different categories","CategoryBrowsing")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their CompareList&quot;, &quot;A...)">
+                  </a> <!-- runScenario("The logged in user lands on the homepage,chooses and adds random products to their CompareList", "A...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The logged in user lands on the homepage,chooses and adds random products to their CompareList","AddingProductsToCompareList")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="runScenario(&quot;The logged in user lands on the homepage,experiences the checkout flow and places an order&quot;, &quot;Placi...)">
@@ -211,46 +263,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their CompareList&quot;, &quot;A...)">
-                  </a> <!-- runScenario("The logged in user lands on the homepage,chooses and adds random products to their CompareList", "A...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The logged in user lands on the homepage,chooses and adds random products to their CompareList","AddingProductsToCompareList")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user enters their valid email to reset their password&quot;, &quot;PasswordReset&quot;)">
-                  </a> <!-- runScenario("The user enters their valid email to reset their password", "PasswordReset") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user enters their valid email to reset their password","PasswordReset")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The logged in user could filter products results by color&quot;, &quot;ColorFiltering&quot;)">
-                  </a> <!-- runScenario("The logged in user could filter products results by color", "ColorFiltering") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The logged in user could filter products results by color","ColorFiltering")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The logged in user lands on the homepage and changes the currency from USD to EURO&quot;, &quot;CurrencyChang...)">
-                  </a> <!-- runScenario("The logged in user lands on the homepage and changes the currency from USD to EURO", "CurrencyChang...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The logged in user lands on the homepage and changes the currency from USD to EURO","CurrencyChange")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their WishList&quot;, &quot;Addi...)">
                   </a> <!-- runScenario("The logged in user lands on the homepage,chooses and adds random products to their WishList", "Addi...) -->
                   <span class="method-name">runScenario</span>
@@ -269,71 +281,41 @@
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The logged in user lands on the homepage,chooses and adds random products to their cart&quot;, &quot;AddingPr...)">
-                  </a> <!-- runScenario("The logged in user lands on the homepage,chooses and adds random products to their cart", "AddingPr...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The logged in user lands on the homepage,chooses and adds random products to their cart","AddingProductsToCart")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The user enters their email and password to log in successfully to the website&quot;, &quot;Login&quot;)">
-                  </a> <!-- runScenario("The user enters their email and password to log in successfully to the website", "Login") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The user enters their email and password to log in successfully to the website","Login")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The logged in user lands on the homepage and browses different categories&quot;, &quot;CategoryBrowsing&quot;)">
-                  </a> <!-- runScenario("The logged in user lands on the homepage and browses different categories", "CategoryBrowsing") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The logged in user lands on the homepage and browses different categories","CategoryBrowsing")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-testrunner_TestRunner-class-passed -->
-        </div> <!-- panel testrunner_TestRunner -->
-        <div panel-name="test-xml-testrunner_TestRunner" class="panel">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;testrunner.TestRunner&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testrunner.TestRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Command line test --&gt;
-&lt;/suite&gt; &lt;!-- testrunner.TestRunner --&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-testrunner_TestRunner" class="panel">
+        <div panel-name="testlist-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for testrunner.TestRunner</span>
+            <span class="header-content">Tests for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (1 class)</span>
+                <span class="test-name">Surefire test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-testrunner_TestRunner" class="panel">
+        <div panel-name="group-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for testrunner.TestRunner</span>
+            <span class="header-content">Groups for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -346,94 +328,78 @@
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-testrunner_TestRunner" class="panel">
+        <div panel-name="times-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for testrunner.TestRunner</span>
+            <span class="header-content">Times for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_testrunner_TestRunner');
-function tableData_testrunner_TestRunner() {
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(12);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testrunner.TestRunner')
-data.setCell(0, 3, 61953);
+data.setCell(0, 3, 58414);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'testrunner.TestRunner')
-data.setCell(1, 3, 51877);
+data.setCell(1, 3, 51869);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'testrunner.TestRunner')
-data.setCell(2, 3, 50259);
+data.setCell(2, 3, 34191);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'testrunner.TestRunner')
-data.setCell(3, 3, 41479);
+data.setCell(3, 3, 15978);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'testrunner.TestRunner')
-data.setCell(4, 3, 11394);
+data.setCell(4, 3, 8652);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'testrunner.TestRunner')
-data.setCell(5, 3, 10182);
+data.setCell(5, 3, 8241);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'testrunner.TestRunner')
-data.setCell(6, 3, 8576);
+data.setCell(6, 3, 6115);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'runScenario')
 data.setCell(7, 2, 'testrunner.TestRunner')
-data.setCell(7, 3, 6624);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'runScenario')
-data.setCell(8, 2, 'testrunner.TestRunner')
-data.setCell(8, 3, 6350);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'runScenario')
-data.setCell(9, 2, 'testrunner.TestRunner')
-data.setCell(9, 3, 5912);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'runScenario')
-data.setCell(10, 2, 'testrunner.TestRunner')
-data.setCell(10, 3, 5876);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'runScenario')
-data.setCell(11, 2, 'testrunner.TestRunner')
-data.setCell(11, 3, 5008);
-window.suiteTableData['testrunner_TestRunner']= { tableData: data, tableDiv: 'times-div-testrunner_TestRunner'}
+data.setCell(7, 3, 5242);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
-              <div id="times-div-testrunner_TestRunner">
-              </div> <!-- times-div-testrunner_TestRunner -->
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-testrunner_TestRunner" class="panel">
+        <div panel-name="reporter-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for testrunner.TestRunner</span>
+            <span class="header-content">Reporter output for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-testrunner_TestRunner" class="panel">
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-testrunner_TestRunner" class="panel">
+        <div panel-name="chronological-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -441,60 +407,46 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testrunner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@2b9b17ce)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@39f7cc46)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("The user fills the required fields with valid data and complete registration successfully", "Regist...)</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-start">480 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("The logged in user lands on the homepage,chooses and adds random products to their cart", "AddingPr...)</span>
-                <span class="method-start">6839 ms</span>
+                <span class="method-start">6668 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The logged in user lands on the homepage,chooses and adds random products to their CompareList", "A...)</span>
-                <span class="method-start">58717 ms</span>
+                <span class="method-start">22656 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The logged in user lands on the homepage,chooses and adds random products to their WishList", "Addi...)</span>
-                <span class="method-start">100197 ms</span>
+                <span class="method-start">56849 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The logged in user lands on the homepage and browses different categories", "CategoryBrowsing")</span>
-                <span class="method-start">150457 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("The logged in user could filter products results by color", "ColorFiltering")</span>
-                <span class="method-start">160640 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("The logged in user lands on the homepage and changes the currency from USD to EURO", "CurrencyChang...)</span>
-                <span class="method-start">169217 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("The user enters their email and password to log in successfully to the website", "Login")</span>
-                <span class="method-start">175568 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("The user enters their valid email to reset their password", "PasswordReset")</span>
-                <span class="method-start">180576 ms</span>
+                <span class="method-start">108720 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The logged in user lands on the homepage,experiences the checkout flow and places an order", "Placi...)</span>
-                <span class="method-start">186489 ms</span>
+                <span class="method-start">117375 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The logged in user lands on the homepage and searches for a product using the search bar", "Search")</span>
-                <span class="method-start">248442 ms</span>
+                <span class="method-start">175791 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("The logged in user could filter products results by tags", "TagsSelection")</span>
-                <span class="method-start">254319 ms</span>
+                <span class="method-start">181035 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">265715 ms</span>
+                <span class="method-start">189279 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

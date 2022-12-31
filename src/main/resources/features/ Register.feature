@@ -1,3 +1,4 @@
+@smoke
 Feature: Registration
 
   #SC1- User could register with valid data
